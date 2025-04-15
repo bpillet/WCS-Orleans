@@ -45,6 +45,10 @@ main {
   font-size: 0.9rem;
   color: #777;
   margin-top: 1rem;
+    margin-left:2rem
+}
+.note::before{
+    content:"👆 "
 }
 
 footer {
@@ -57,6 +61,15 @@ footer {
 }
 
 @media(max-width: 768px){
+    .note{
+	text-align: right;
+    }
+    .note::before{
+	content:""
+    }
+    .note::after{
+	content:" en cliquant sur le ➕  👆"
+    }
     main{
 	padding: 0.5rem;
     }
