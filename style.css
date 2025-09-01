@@ -91,3 +91,24 @@ footer {
 	border: 0;
     }
 }
+
+footer li {
+    display: inline-block;
+    margin: .5em;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding-top: .5ex;
+    padding-bottom: .5ex;
+    padding-right: .2ex;
+    padding-left: .2ex;
+		 
+}
+
+footer li:hover {
+    border: 1px blue solid;
+}
+
+footer li:before {
+    content: "🔗";
+}
+
